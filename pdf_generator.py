@@ -103,12 +103,14 @@ class PDF(FPDF):
                 continue
 
 
-def generate_pdf(post_data):
+def generate_pdf(post_data, filename=None):
     pdf = PDF()
     pdf.add_post_content(post_data)
     pdf.add_comments(post_data.get("comments", []))
 
-    title = post_data.get("title", "reddit_post")
-    filename = f"{sanitize_filename(title)}.pdf"
+    if not filename:
+        title = post_data.get("title", "reddit_post")
+        filename = f"{sanitize_filename(title)}.pdf"
+
     pdf.output(filename)
     print(f"✅ PDF saved as: {filename}")
