@@ -1,0 +1,60 @@
+# ──────────────────────────────
+# PYTHON GENERAL
+# ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Bytecode and interpreter cache
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ──────────────────────────────
+# ENVIRONMENTS
+# ──────────────────────────────
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+env.bk/
+
+# ──────────────────────────────
+# OS-SPECIFIC FILES
+# ──────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ──────────────────────────────
+# IDE / EDITOR FOLDERS
+# ──────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ──────────────────────────────
+# TEMPORARY OR GENERATED FILES
+# ──────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.pdf  # Optional: PDF output files
+
+# ──────────────────────────────
+# STREAMLIT CONFIG / SECRETS
+# ──────────────────────────────
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# ──────────────────────────────
+# CUSTOM: FONT FILES (Optional)
+# ──────────────────────────────
+fonts/*.ttf
