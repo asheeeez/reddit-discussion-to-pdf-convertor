@@ -20,7 +20,7 @@ Convert any Reddit post (including its top-level comments) into a clean, downloa
 
 ## 🖼️ Live Demo
 
-> 🔗 Coming soon: [https://reddit-to-pdf.streamlit.app](https://reddit-to-pdf.streamlit.app)
+> 🔗 [https://reddit-to-pdf.streamlit.app](https://reddit-discussion-to-pdf-convertor-2etmhje6gkss93qjbvydjd.streamlit.app/)
 
 ---
 
